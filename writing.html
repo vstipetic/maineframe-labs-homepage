@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Writing — MaineFrame Labs</title>
+  <meta name="description" content="Personal research writing by MaineFrame Labs: VLM limitations &amp; explainability, sparse-autoencoder interpretability on vision transformers, and uncertainty quantification for molecular solubility models." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-nav="projects.html">
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">// writing</span>
+        <h1>Research &amp; write-ups</h1>
+        <p class="lead">Personal, non-commercial research notes — reimplementations and analyses that probe where modern vision and multimodal models break, and how to know when to trust them.</p>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:none; padding-top:0;">
+      <div class="container">
+        <div class="entries">
+
+          <article class="entry">
+            <div class="media"><span>// image placeholder<br/>VLM blindness probe</span></div>
+            <div class="body">
+              <span class="kind">// vision-language models · reimplementation</span>
+              <h3>Reimplementing "VLMs are blind"</h3>
+              <p>A from-scratch reimplementation and extension of the probes showing that large vision-language models fail surprisingly basic visual tasks — counting, spatial reasoning, simple object relationships. Why do models that "see" so well in demos stumble on things a child handles?</p>
+              <div class="tags">
+                <span class="tag">VLMs</span>
+                <span class="tag">evaluation</span>
+                <span class="tag">failure modes</span>
+              </div>
+              <a class="more" href="writing/vlm-blind.html">Read article →</a>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="media"><span>// image placeholder<br/>SAE / ViT features</span></div>
+            <div class="body">
+              <span class="kind">// interpretability · vision transformers</span>
+              <h3>Sparse autoencoders on vision transformers</h3>
+              <p>Applying sparse-autoencoder interpretability work to vision transformers to ask: what visual cues do individual features actually learn? The goal is to move from "it works" to a concrete picture of the visual concepts a ViT encodes.</p>
+              <div class="tags">
+                <span class="tag">interpretability</span>
+                <span class="tag">sparse autoencoders</span>
+                <span class="tag">ViT</span>
+              </div>
+              <a class="more" href="writing/sae-vit.html">Read article →</a>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="media"><span>// image placeholder<br/>solubility / UQ</span></div>
+            <div class="body">
+              <span class="kind">// uncertainty quantification · molecular ML</span>
+              <h3>Uncertainty quantification for molecular solubility</h3>
+              <p>Applying uncertainty quantification to molecular solubility prediction — examining which predictions carry real confidence, how calibrated that confidence is, and how UQ can guide data collection and model selection in a chemistry setting.</p>
+              <div class="tags">
+                <span class="tag">uncertainty quantification</span>
+                <span class="tag">molecular ML</span>
+                <span class="tag">calibration</span>
+              </div>
+              <a class="more" href="writing/solubility-uq.html">Read article →</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="note">
+          <span class="mono">// note</span> &nbsp;These are personal, non-monetized research notes shared for transparency and discussion. Article bodies are being filled in — links go to in-progress write-ups.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

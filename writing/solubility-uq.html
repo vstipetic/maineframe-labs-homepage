@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uncertainty quantification for molecular solubility — MaineFrame Labs</title>
+  <meta name="description" content="Applying uncertainty quantification to molecular solubility prediction — calibration, confidence, and UQ-guided data collection." />
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-nav="projects.html">
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="../index.html">Home</a>
+        <a data-page="projects.html" href="../projects.html">Projects</a>
+        <a data-page="about.html" href="../about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="border-top:none; padding-top:48px;">
+      <div class="container">
+        <a class="back-link" href="../writing.html">← Back to writing</a>
+        <header class="article-head">
+          <div class="meta">
+            <span>// uncertainty quantification</span><span class="dot">·</span>
+            <span>molecular ML</span><span class="dot">·</span>
+            <span>in progress</span>
+          </div>
+          <h1>Uncertainty quantification for molecular solubility</h1>
+          <p class="lead">Which solubility predictions can we trust? Calibration, UQ, and uncertainty-guided data collection in a chemistry setting.</p>
+        </header>
+
+        <div class="article-body">
+          <div class="media"><span>// image placeholder — calibration curves</span></div>
+
+          <h2>Motivation</h2>
+          <p>Molecular solubility prediction is a setting where a confident wrong number can mislead downstream decisions. The interesting question isn't just "how accurate is the model" but "which predictions carry real confidence, and is that confidence calibrated?"</p>
+
+          <h2>What I'm looking at</h2>
+          <ul>
+            <li>Comparing UQ approaches (ensembles, MC dropout, etc.) on solubility benchmarks.</li>
+            <li>Measuring calibration and sharpness, not just RMSE.</li>
+            <li>Using uncertainty to guide which new molecules to label — active learning for chemistry.</li>
+          </ul>
+
+          <h2>Findings</h2>
+          <p><span class="mono">// in progress</span> — calibration plots, UQ method comparison, and active-learning results to follow.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="../index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="../projects.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

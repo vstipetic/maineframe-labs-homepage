@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reimplementing "VLMs are blind" — MaineFrame Labs</title>
+  <meta name="description" content="A reimplementation and extension of probes showing that vision-language models fail basic visual tasks like counting and spatial reasoning." />
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-nav="projects.html">
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="../index.html">Home</a>
+        <a data-page="projects.html" href="../projects.html">Projects</a>
+        <a data-page="about.html" href="../about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="border-top:none; padding-top:48px;">
+      <div class="container">
+        <a class="back-link" href="../writing.html">← Back to writing</a>
+        <header class="article-head">
+          <div class="meta">
+            <span>// vision-language models</span><span class="dot">·</span>
+            <span>reimplementation</span><span class="dot">·</span>
+            <span>in progress</span>
+          </div>
+          <h1>Reimplementing "VLMs are blind"</h1>
+          <p class="lead">A from-scratch reimplementation and extension of the probes showing that large vision-language models fail surprisingly basic visual tasks.</p>
+        </header>
+
+        <div class="article-body">
+          <div class="media"><span>// image placeholder — probe examples</span></div>
+
+          <h2>Motivation</h2>
+          <p>Modern VLMs look impressive on demos, yet a line of work on "VLM blindness" shows they routinely fail tasks a child handles: counting overlapping objects, judging relative positions, recognizing simple relationships. This write-up reimplements those probes from scratch and extends them, to build an honest picture of where these models actually break.</p>
+
+          <h2>What I'm looking at</h2>
+          <ul>
+            <li>Reimplementing the core probe suite rather than trusting reported numbers.</li>
+            <li>Stress-testing counting, spatial reasoning, and attribute binding.</li>
+            <li>Checking whether failures are consistent across prompting and resolution changes.</li>
+          </ul>
+
+          <h2>Findings</h2>
+          <p><span class="mono">// in progress</span> — detailed results, figures, and failure case studies to follow as the analysis matures.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="../index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="../projects.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

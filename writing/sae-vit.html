@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sparse autoencoders on vision transformers — MaineFrame Labs</title>
+  <meta name="description" content="Applying sparse-autoencoder interpretability to vision transformers to determine what visual cues individual features learn." />
+  <link rel="icon" type="image/svg+xml" href="../assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body data-nav="projects.html">
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="../index.html">Home</a>
+        <a data-page="projects.html" href="../projects.html">Projects</a>
+        <a data-page="about.html" href="../about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="border-top:none; padding-top:48px;">
+      <div class="container">
+        <a class="back-link" href="../writing.html">← Back to writing</a>
+        <header class="article-head">
+          <div class="meta">
+            <span>// interpretability</span><span class="dot">·</span>
+            <span>vision transformers</span><span class="dot">·</span>
+            <span>in progress</span>
+          </div>
+          <h1>Sparse autoencoders on vision transformers</h1>
+          <p class="lead">Using sparse-autoencoder interpretability to ask what visual cues individual ViT features actually learn.</p>
+        </header>
+
+        <div class="article-body">
+          <div class="media"><span>// image placeholder — SAE feature visualizations</span></div>
+
+          <h2>Motivation</h2>
+          <p>Sparse autoencoders have become a practical tool for finding interpretable, monosemantic features inside language models. The natural question: do they work on vision transformers, and what visual concepts do they surface?</p>
+
+          <h2>What I'm looking at</h2>
+          <ul>
+            <li>Training sparse autoencoders on ViT activations across layers.</li>
+            <li>Characterizing learned features via dataset examples and synthetic maximization.</li>
+            <li>Comparing what different layers encode — from low-level texture to object-level cues.</li>
+          </ul>
+
+          <h2>Findings</h2>
+          <p><span class="mono">// in progress</span> — feature galleries and analysis to follow.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="../index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="../projects.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

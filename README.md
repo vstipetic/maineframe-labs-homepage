@@ -10,19 +10,27 @@ no build step, no dependencies. Hosted for free on **GitHub Pages**.
 ## Structure
 
 ```
-index.html          Home
-about.html          About
-projects.html       Projects (client work + personal research)
-contact.html        Contact (mailto link)
-CNAME               Custom domain (placeholder: maineframelabs.hr)
+index.html              Home
+about.html              About
+projects.html           Projects hub (links to the two below)
+client-work.html        Client work (vessel detection, biochemical analysis)
+writing.html            Writing index (personal research write-ups)
+writing/
+  vlm-blind.html        Reimplementing "VLMs are blind"
+  sae-vit.html          Sparse autoencoders on vision transformers
+  solubility-uq.html    UQ for molecular solubility models
+contact.html            Contact (mailto link)
+CNAME                   Custom domain (placeholder: maineframelabs.hr)
 assets/
-  css/style.css     Dark/technical theme
-  js/main.js        Mobile nav + footer year + active link
-  img/logo.svg      Logo / favicon
-  img/og.svg        Open Graph image
+  css/style.css         Dark/technical theme
+  js/main.js            Mobile nav + footer year + active link
+  img/logo.svg          Logo / favicon
+  img/og.svg            Open Graph image
 docs/
-  custom-domain.md  How to wire up your custom domain
+  custom-domain.md      How to wire up your custom domain
 ```
+
+Article pages live under `writing/` and use `../assets/...` relative paths.
 
 ## Run locally
 

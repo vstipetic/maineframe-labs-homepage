@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Client work — MaineFrame Labs</title>
+  <meta name="description" content="Confidential client engagements by MaineFrame Labs: vessel detection and biochemical analysis from satellite imagery, with active learning and uncertainty quantification." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-nav="projects.html">
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">// client work</span>
+        <h1>Satellite image analysis</h1>
+        <p class="lead">Selected client engagements in remote-sensing computer vision. Projects are described without naming clients; detailed case studies available under NDA.</p>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:none; padding-top:0;">
+      <div class="container">
+        <div class="entries">
+
+          <article class="entry">
+            <div class="media"><span>// image placeholder<br/>vessel detection</span></div>
+            <div class="body">
+              <span class="kind">// satellite · computer vision · detection</span>
+              <h3>Vessel detection in satellite imagery</h3>
+              <p>End-to-end detection pipeline for identifying and localizing vessels across large satellite scenes. The core challenge wasn't the architecture — it was making a limited labeling budget go far enough, and knowing which detections to trust.</p>
+              <p>A data-centric active-learning loop prioritizes the scenes and regions most worth annotating, while uncertainty-aware scoring surfaces ambiguous detections for human review instead of silently shipping them. The result: higher effective label efficiency and a clear, honest signal on prediction confidence.</p>
+              <div class="tags">
+                <span class="tag">object detection</span>
+                <span class="tag">remote sensing</span>
+                <span class="tag">active learning</span>
+                <span class="tag">uncertainty</span>
+                <span class="tag">human-in-the-loop</span>
+              </div>
+              <a class="more" href="contact.html">Discuss a similar problem →</a>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="media"><span>// image placeholder<br/>biochemical analysis</span></div>
+            <div class="body">
+              <span class="kind">// satellite · analysis · regression</span>
+              <h3>Biochemical analysis from satellite imagery</h3>
+              <p>Models that infer biochemical indicators from satellite data. The harder part is reliability: satellite inputs shift with season, sensor, and geography, and a confident-but-wrong estimate is worse than an honest "uncertain".</p>
+              <p>Work focused on distribution-shift awareness and confidence calibration — emphasizing when a prediction is reliable enough to act on and when it should be flagged. Evaluation was built around decision quality, not just regression error.</p>
+              <div class="tags">
+                <span class="tag">regression</span>
+                <span class="tag">calibration</span>
+                <span class="tag">distribution shift</span>
+                <span class="tag">uncertainty</span>
+              </div>
+              <a class="more" href="contact.html">Discuss a similar problem →</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="note">
+          <span class="mono">// note</span> &nbsp;Client names and dataset specifics are withheld for confidentiality. If a case study here looks relevant to your problem, reach out and we can talk specifics under NDA.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

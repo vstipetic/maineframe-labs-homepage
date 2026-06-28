@@ -17,9 +17,11 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Mark active nav link based on current file
+  // Mark active nav link based on current file or body[data-nav]
   var path = window.location.pathname.split('/').pop() || 'index.html';
+  var explicit = document.body.getAttribute('data-nav');
   document.querySelectorAll('.nav-links a[data-page]').forEach(function (a) {
-    if (a.getAttribute('data-page') === path) a.classList.add('active');
+    var target = explicit || path;
+    if (a.getAttribute('data-page') === target) a.classList.add('active');
   });
 })();

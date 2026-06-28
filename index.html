@@ -90,25 +90,31 @@
     <section class="section">
       <div class="container">
         <div class="section-head">
-          <span class="label">How it works</span>
-          <h2>An engineering approach, not a black box</h2>
+          <span class="label">End to end</span>
+          <h2>We own the entire pipeline</h2>
+          <p>From the first look at the raw data to monitoring a model in production — one accountable engineer across every stage, so nothing falls through the gaps between hand-offs.</p>
         </div>
-        <div class="grid grid-3">
-          <article class="card">
-            <div class="icon">01</div>
-            <h3>Scope &amp; frame</h3>
-            <p>We start from the decision the model has to support, not the benchmark it has to beat. Success metrics are defined before a single line of training code is written.</p>
-          </article>
-          <article class="card">
-            <div class="icon">02</div>
-            <h3>Data &amp; uncertainty</h3>
-            <p>Active learning and UQ guide where to label, what to inspect, and which predictions are safe to act on — keeping data and model quality moving together.</p>
-          </article>
-          <article class="card">
-            <div class="icon">03</div>
-            <h3>Ship &amp; monitor</h3>
-            <p>Models are delivered as reproducible pipelines with evaluation harnesses and monitoring in place, so performance is observable after deployment.</p>
-          </article>
+        <div class="pipeline">
+          <div class="pipeline-step">
+            <span class="num">01</span>
+            <h3>Data inspection &amp; cleaning</h3>
+            <p>Profiling, labeling strategy, and cleaning — catching the label noise, leakage, and distribution oddities that decide whether a model can succeed at all.</p>
+          </div>
+          <div class="pipeline-step">
+            <span class="num">02</span>
+            <h3>Modeling &amp; evaluation</h3>
+            <p>Training with an honest evaluation harness, calibrated uncertainty, and active learning — measuring what matters, not what's easy to metric.</p>
+          </div>
+          <div class="pipeline-step">
+            <span class="num">03</span>
+            <h3>Deployment</h3>
+            <p>Reproducible pipelines and packaging so the model that shipped is the model that was evaluated — deployed into your environment, not a notebook.</p>
+          </div>
+          <div class="pipeline-step">
+            <span class="num">04</span>
+            <h3>Post-deployment monitoring</h3>
+            <p>Drift, calibration, and performance tracking after launch, with feedback loops that feed straight back into data and the next training cycle.</p>
+          </div>
         </div>
       </div>
     </section>
