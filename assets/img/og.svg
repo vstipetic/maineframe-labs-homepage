@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0e14"/>
+  <circle cx="600" cy="120" r="380" fill="#4ea8de" opacity="0.08"/>
+  <text x="80" y="300" font-family="monospace" font-size="28" fill="#4ea8de" letter-spacing="3">// MaineFrame Labs</text>
+  <text x="76" y="380" font-family="Inter, sans-serif" font-size="68" font-weight="700" fill="#e6edf3">Computer vision,</text>
+  <text x="76" y="452" font-family="Inter, sans-serif" font-size="68" font-weight="700" fill="#e6edf3">multimodal &amp; data-centric ML.</text>
+  <rect x="76" y="500" width="120" height="6" fill="#7ee787"/>
+</svg>

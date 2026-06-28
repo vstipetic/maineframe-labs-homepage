@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — MaineFrame Labs</title>
+  <meta name="description" content="MaineFrame Labs is a freelance machine learning engineering studio focused on computer vision, multimodal generative AI, and data-centric AI." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">// about</span>
+        <h1>A studio built around trustworthy ML.</h1>
+        <p class="lead">MaineFrame Labs is the freelance practice of a machine learning engineer who spends more time on data, uncertainty, and evaluation than on chasing leaderboard numbers.</p>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:none; padding-top:0;">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <h2>The approach</h2>
+            <p>Most ML projects don't fail at the model — they fail at the boundary between the model and the real world: messy data, drifting distributions, and predictions that look confident but shouldn't. MaineFrame Labs is built around that boundary.</p>
+            <p>Work here pairs strong modeling fundamentals with a data-centric mindset: active learning to spend labeling budget where it counts, and uncertainty quantification to know which predictions are safe to act on. The output is not just a model, but a reproducible, observable system you can trust in production.</p>
+            <p>Engagements are typically freelance and project-based, with the option to embed alongside an in-house team when that fits better.</p>
+          </div>
+          <div>
+            <h2>Focus areas</h2>
+            <ul class="focus-list">
+              <li><b>Computer vision</b> — detection &amp; segmentation, incl. satellite / remote-sensing imagery.</li>
+              <li><b>Multimodal generative AI</b> — building with VLMs and studying their limits.</li>
+              <li><b>Active learning</b> — efficient labeling loops for scarce-label domains.</li>
+              <li><b>Uncertainty quantification</b> — calibration, UQ, and knowing when not to trust a model.</li>
+              <li><b>Evaluation &amp; explainability</b> — honest assessment of what models actually do.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="label">Principles</span>
+          <h2>How the work gets done</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="icon">→</div>
+            <h3>Decisions first</h3>
+            <p>Models exist to support a decision. We define that decision and its cost of error before optimizing any metric.</p>
+          </article>
+          <article class="card">
+            <div class="icon">~</div>
+            <h3>Uncertainty is a feature</h3>
+            <p>A confident wrong prediction is worse than an honest "I don't know." Calibration and UQ are first-class deliverables.</p>
+          </article>
+          <article class="card">
+            <div class="icon">∞</div>
+            <h3>Reproducible by default</h3>
+            <p>Pipelines, evaluation harnesses, and clear documentation — so the work survives after the engagement ends.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

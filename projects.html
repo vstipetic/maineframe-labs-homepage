@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — MaineFrame Labs</title>
+  <meta name="description" content="Selected client and personal projects by MaineFrame Labs: satellite image analysis (vessel detection, biochemical analysis), VLM limitations &amp; explainability, and uncertainty quantification for molecular solubility models." />
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="nav-links">
+        <a data-page="index.html" href="index.html">Home</a>
+        <a data-page="projects.html" href="projects.html">Projects</a>
+        <a data-page="about.html" href="about.html">About</a>
+        <a class="nav-cta" data-page="contact.html" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">// selected work</span>
+        <h1>Projects</h1>
+        <p class="lead">A mix of confidential client engagements (described without naming clients) and personal research side projects that explore the edges of modern vision and multimodal models.</p>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:none; padding-top:0;">
+      <div class="container">
+        <div class="section-divider"><h3>Client work</h3><span class="line"></span></div>
+        <div class="grid grid-2">
+          <article class="project">
+            <span class="kind">// satellite · computer vision</span>
+            <h3>Vessel detection in satellite imagery</h3>
+            <p>End-to-end detection pipeline for identifying and localizing vessels across large satellite scenes. Built around a data-centric active-learning loop to make the most of a limited labeling budget, with uncertainty-aware scoring to surface ambiguous detections for human review rather than silently shipping them.</p>
+            <div class="tags">
+              <span class="tag">object detection</span>
+              <span class="tag">remote sensing</span>
+              <span class="tag">active learning</span>
+              <span class="tag">uncertainty</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <span class="kind">// satellite · analysis</span>
+            <h3>Biochemical analysis from satellite imagery</h3>
+            <p>Models that infer biochemical indicators from satellite data, with careful attention to distribution shift and confidence calibration. Emphasis on knowing when a prediction is reliable enough to act on — and when it isn't.</p>
+            <div class="tags">
+              <span class="tag">regression</span>
+              <span class="tag">calibration</span>
+              <span class="tag">distribution shift</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-divider"><h3>Personal / side projects</h3><span class="line"></span></div>
+        <div class="grid grid-2">
+          <article class="project">
+            <span class="kind">// research · non-commercial</span>
+            <h3>Limitations &amp; explainability of vision-language models</h3>
+            <p>An ongoing study of where VLMs fail and why — probing failure modes through targeted evaluation and explainability techniques. The goal is a clearer, honest picture of what these models can and cannot be trusted to perceive.</p>
+            <div class="tags">
+              <span class="tag">VLMs</span>
+              <span class="tag">explainability</span>
+              <span class="tag">evaluation</span>
+              <span class="tag">robustness</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <span class="kind">// research · non-commercial</span>
+            <h3>Uncertainty quantification for molecular solubility models</h3>
+            <p>Applying uncertainty quantification to molecular solubility prediction — examining which predictions carry real confidence and how calibrated uncertainty can guide data collection and model selection in a chemistry setting.</p>
+            <div class="tags">
+              <span class="tag">uncertainty quantification</span>
+              <span class="tag">molecular ML</span>
+              <span class="tag">calibration</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          <span class="mono">// note</span> &nbsp;Client project descriptions are intentionally anonymized. Detailed case studies can be shared under NDA. Personal projects are non-monetized research, shared for transparency and discussion.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="index.html">
+        <span class="logo">M</span>
+        <span class="name"><b>MaineFrame</b><span> Labs</span></span>
+      </a>
+      <small>© <span id="year">2026</span> MaineFrame Labs · <span class="mono">contact@maineframelabs.hr</span></small>
+      <nav class="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
