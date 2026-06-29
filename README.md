@@ -16,11 +16,9 @@ projects.html           Projects hub (links to the two below)
 client-work.html        Client work (vessel detection, biochemical analysis)
 writing.html            Writing index (personal research write-ups)
 writing/
-  vlm-blind.html        Reimplementing "VLMs are blind"
-  sae-vit.html          Sparse autoencoders on vision transformers
-  solubility-uq.html    UQ for molecular solubility models
+  vlm-blind.html        Reimplementing "VLMs are blind" (placeholder, more to come)
 contact.html            Contact (mailto link)
-CNAME                   Custom domain (placeholder: maineframelabs.hr)
+CNAME                   Custom domain (maineframelabs.hr)
 assets/
   css/style.css         Dark/technical theme
   js/main.js            Mobile nav + footer year + active link
@@ -56,10 +54,10 @@ python -m http.server 8000
 
 ## Custom domain
 
-The `CNAME` file currently contains a **placeholder**: `maineframelabs.hr`.
-Replace it with your real domain when ready, then follow the steps in
-[`docs/custom-domain.md`](docs/custom-domain.md) to point DNS at GitHub Pages
-and enable HTTPS.
+Domain `maineframelabs.hr` is registered (expires 17.06.2027). The `CNAME` file
+is set; remaining step is DNS in the [domene.hr portal](https://www.domene.hr/portal/mydomain)
+and enabling the domain in GitHub Pages. See
+[`docs/custom-domain.md`](docs/custom-domain.md).
 
 ## Editing
 
