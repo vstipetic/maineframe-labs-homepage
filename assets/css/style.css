@@ -266,6 +266,71 @@ code, .mono { font-family: var(--mono); }
 }
 .focus-list li b { color: var(--text); }
 
+/* ---------- Founder / personal ---------- */
+.founder {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 36px;
+  align-items: start;
+}
+.founder .photo {
+  width: 240px;
+  height: 240px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  filter: grayscale(0.15);
+}
+.founder h2 { margin: 0 0 4px; }
+.founder .title {
+  font-family: var(--mono);
+  color: var(--accent);
+  font-size: 0.9rem;
+  margin: 0 0 16px;
+}
+.founder .bio p { font-size: 1.02rem; }
+.founder .creds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 0;
+  list-style: none;
+  padding: 0;
+}
+.founder .creds li {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+.track-record {
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+.track-record li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+}
+.track-record li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+.track-record li b { color: var(--text); }
+@media (max-width: 760px) {
+  .founder { grid-template-columns: 1fr; }
+  .founder .photo { width: 160px; height: 160px; }
+}
+
 /* ---------- Contact ---------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
 .contact-card {
